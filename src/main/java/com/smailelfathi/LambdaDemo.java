@@ -50,7 +50,7 @@ public class LambdaDemo {
                 + message);
         fobj.sayMessage("Geek");
 
-        FuncInter2 test =  (String s) -> System.out.println("lenth of '"+s
+        FuncInter2 test =   s -> System.out.println("lenth of '"+s
              +"' is: "+s.length());
         test.sayMessage("Smail EL FATHI");
 
